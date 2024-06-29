@@ -1,0 +1,9 @@
+#textOverlay {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    font-size: 24px;
+    z-index: 10; /* Ensure text is above WebGL canvas */
+    pointer-events: none; /* Allow mouse events to pass through to the canvas */
+  }
